@@ -48,7 +48,7 @@ Welcome to the Bridging Math and Programming Code Challenge! This challenge is d
 
 ⏳**Time Managemen**
 
-* The challenge is 90 minutes long.
+* The challenge is 60 minutes long.
 
 * Aim to complete at least the first three problems before moving to the fourth.
 
