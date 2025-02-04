@@ -54,22 +54,22 @@ Welcome to the Bridging Math and Programming Code Challenge! This challenge is d
 
 🏆 **Code Submission & Peer Review**
 
-After the coding challenge, each group's code will be assigned to another group for peer review.
+* After the coding challenge, each group's code will be assigned to another group for peer review.
 
-The reviewing group will evaluate the code using the MIT Emerging Talent Code Review Checklist.
+* The reviewing group will evaluate the code using the MIT Emerging Talent Code Review Checklist.
 
-Feedback should be constructive and specific, focusing on:
+* Feedback should be constructive and specific, focusing on:
 
-Functionality & correctness (Does it work as expected?)
+* Functionality & correctness (Does it work as expected?)
 
-Readability & structure (Is the code well-organized and understandable?)
+* Readability & structure (Is the code well-organized and understandable?)
 
-Mathematical & logical accuracy (Are calculations correct?)
+* Mathematical & logical accuracy (Are calculations correct?)
 
-Edge cases & input handling (Does it handle unexpected inputs?)
+* Edge cases & input handling (Does it handle unexpected inputs?)
 
-Python best practices (PEP 8, clean coding principles)
+* Python best practices (PEP 8, clean coding principles)
 
-🔗 Review Checklist: MIT ET Code Review Checklist
+🔗 Review Checklist: MIT ET Code Review Checklist: https://github.com/MIT-Emerging-Talent/ET6-practice-code-review/blob/main/.github/PULL_REQUEST_TEMPLATE.md  
 
 Let's make this an engaging and insightful coding experience! 🚀
