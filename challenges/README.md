@@ -36,7 +36,7 @@ Welcome to the Bridging Math and Programming Code Challenge! This challenge is d
 
 * Participants will be divided into groups.
 
- * Each group should select a team name.
+ * Each group can select a team name.
 
 * Each team must write their team name and member names as a comment or group description in their repository.
 
