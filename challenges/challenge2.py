@@ -29,3 +29,23 @@ What changes would you recommend to enhance security and minimize excessive acce
 # -*- coding: utf-8 -*-
 
 """
+finance_access = {"E0435", "E1021", "E3098", "E7642", "E8873", "E6590"}
+tech_access = {"E7642", "E8873", "E6590", "E9812", "E4520"}
+Admin={"E0001"}
+new_employees={"E9999"}
+#Who has access to at least one type of data?
+atleast_one_access = finance_access | tech_access
+#Who has access to both financial and technical data
+access_both= finance_access & tech_access
+access_both.add("E0001")
+#Who has exclusive access to only one type of data?
+exclusive_access= finance_access-tech_access, tech_access-finance_access
+#Which employees currently lack access (but exist in the system)?
+system= finance_access | tech_access | Admin | new_employees
+access=finance_access | tech_access | Admin
+no_access=system-access
+
+#Are there unnecessary overlaps in access that could pose a security risk?
+# yes three employee has access to both financial and tech department which can be risky
+#What changes would you recommend to enhance security and minimize excessive access?
+# I would limit everyone's access to their own department

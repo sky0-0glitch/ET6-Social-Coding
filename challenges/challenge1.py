@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Jan 30 15:30:30 2025
-
+Team Members:
+Justina Odoeze, Sahar Omer, Solara Hamza
+Mohamad Tilal, Arthur Dorvil
 @author: somai
 Challenge 1: Detecting Suspicious Login Attempts
 Objective:
@@ -26,3 +28,7 @@ Apply Boolean law to simplify it.
 Interpret what the final expression means in the context of allowing or blocking a login attempt.
 
 """
+A = "The user has provided the correct login credentials."
+B ="The login attempt is from a trusted device."
+if not A or not B and B:
+  print("The login will be flagged if they login freom the same or different divice and doesn't matter if they know the password")
